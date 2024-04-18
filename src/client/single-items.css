@@ -1,0 +1,119 @@
+/* SingleItem.css */
+
+/* Container styles */
+.single-item-container {
+    padding: 20px;
+  }
+  
+  /* Styles for the reviews and comments container */
+  .reviews-comments-container {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  /* Styles for the review section */
+  .review-section {
+    margin-bottom: 30px;
+  }
+  
+  .review-section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .review-section .review {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-section .review .rating {
+    color: #ffcc00;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .review-section .review .review-text {
+    margin-bottom: 10px;
+  }
+  
+  .review-section .review .comment-section {
+    margin-top: 10px;
+  }
+  
+  /* Styles for the comment form */
+  .comment-form {
+    margin-top: 20px;
+  }
+  
+  .comment-form textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .comment-form button,
+  .reviews-form button {
+    padding: 10px 20px;
+    background-color: #CA734D;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comment-form button:hover,
+  .reviews-form button:hover {
+    background-color: #AF5236;
+  }
+  
+  /* Styles for the reviews form */
+  .reviews-form {
+    margin-top: 20px;
+  }
+  
+  .reviews-form textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .single-item-container {
+      padding: 10px;
+    }
+  
+    .review-section .review {
+      padding: 10px;
+    }
+  
+    .comment-form textarea,
+    .reviews-form textarea {
+      min-height: 60px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .review-section .review {
+      padding: 8px;
+    }
+  
+    .comment-form textarea,
+    .reviews-form textarea {
+      min-height: 50px;
+    }
+  }
+  
